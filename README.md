@@ -68,4 +68,3 @@ For questions or feedback, feel free to reach out:
 Thank you for checking out Cafe2! We hope this project makes cafe management easier and more enjoyable.
 ```
 
-Feel free to copy this into your `README.md` file or let me know if you'd like to make any adjustments!
