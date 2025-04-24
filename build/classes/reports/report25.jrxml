@@ -1,0 +1,72 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="report25" language="java" columnCount="1" pageWidth="595" pageHeight="283" orientation="Landscape" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5fe3ae7e-730a-4463-bc5b-2ac6dbbb9192">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="mm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<parameter name="Parameter3" class="java.lang.String"/>
+	<parameter name="Parameter4" class="java.lang.String"/>
+	<parameter name="Parameter5" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="33" splitType="Stretch">
+		<element kind="staticText" uuid="7545b967-90eb-4a6a-a9b0-676c5d98660a" x="168" y="1" width="212" height="30" forecolor="#FF1612" fontSize="20.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Royal Cafe Statictics]]></text>
+		</element>
+	</title>
+	<pageHeader height="32" splitType="Stretch">
+		<element kind="staticText" uuid="45241bd2-491a-4975-b84f-9027025b8244" x="198" y="0" width="50" height="30" forecolor="#0A2FFF" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Date]]></text>
+		</element>
+		<element kind="textField" uuid="8a3ca2fc-b2f4-479c-9761-b880d7278f94" x="250" y="0" width="100" height="30" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter1}]]></expression>
+		</element>
+	</pageHeader>
+	<columnHeader height="46" splitType="Stretch">
+		<element kind="staticText" uuid="472cb31f-0574-4f9c-a684-cf3abcf292c0" x="30" y="10" width="100" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Total Products]]></text>
+		</element>
+		<element kind="staticText" uuid="4ce6696c-2e3e-421e-b085-61fd8efa4342" x="170" y="10" width="100" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Today Revenue]]></text>
+		</element>
+		<element kind="staticText" uuid="c5d99af1-3bed-40d1-9d85-fbf52d45654c" x="300" y="10" width="100" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Total Revenue]]></text>
+		</element>
+		<element kind="staticText" uuid="05c50492-1498-4a8c-940d-31b91c39648f" x="430" y="10" width="100" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Total Admin]]></text>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="34" splitType="Stretch">
+			<element kind="textField" uuid="27572f39-59bb-49d7-ba4e-131437600efc" x="30" y="0" width="100" height="30" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter2}]]></expression>
+			</element>
+			<element kind="textField" uuid="ea47a979-e47f-4438-8230-f3f77b01f6f5" x="170" y="0" width="100" height="30" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter3}]]></expression>
+			</element>
+			<element kind="textField" uuid="017fde27-2716-4493-b95b-df46a2267724" x="300" y="0" width="100" height="30" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter4}]]></expression>
+			</element>
+			<element kind="textField" uuid="2db6508c-f00d-42a3-aa5d-59e9651af1f0" x="430" y="0" width="100" height="30" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter5}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="43" splitType="Stretch"/>
+	<pageFooter height="49" splitType="Stretch">
+		<element kind="staticText" uuid="fb73ea2b-947a-4a1b-8ea9-606436083587" x="220" y="30" width="130" height="15" forecolor="#5A13F2" italic="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Himesh Hansana Soft.com]]></text>
+		</element>
+		<element kind="staticText" uuid="b0c1167c-ef99-476c-af48-a1da37415089" x="180" y="-1" width="210" height="30" forecolor="#F2074A" fontSize="16.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[***Thank You Welcome ***]]></text>
+		</element>
+	</pageFooter>
+	<summary height="50" splitType="Stretch"/>
+</jasperReport>

@@ -1,0 +1,96 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="report12" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="66e20278-73f8-47d1-8869-1bef894bcd13">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<parameter name="Parameter3" class="java.lang.String"/>
+	<parameter name="Parameter4" class="java.lang.String"/>
+	<parameter name="Parameter5" class="java.lang.String"/>
+	<parameter name="Parameter6" class="java.lang.String"/>
+	<parameter name="Parameter7" class="java.lang.String"/>
+	<parameter name="Parameter8" class="java.lang.String"/>
+	<parameter name="Parameter9" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="x" class="java.lang.String"/>
+	<field name="y" class="java.lang.String"/>
+	<field name="z" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<title height="40" splitType="Stretch">
+		<element kind="staticText" uuid="38f9cf11-a8a8-41e7-99b8-6c45357de3f3" x="210" y="5" width="130" height="30" forecolor="#FF1612" fontSize="20.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Royal Cafe]]></text>
+		</element>
+	</title>
+	<pageHeader height="40" splitType="Stretch">
+		<element kind="staticText" uuid="63cd9203-2abc-4d23-92e3-834f7b53abc5" x="0" y="5" width="50" height="30" forecolor="#082DFF" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Name]]></text>
+		</element>
+		<element kind="staticText" uuid="f8304a22-532f-448d-99ab-df72b8966750" x="200" y="5" width="50" height="30" forecolor="#0A2FFF" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Date]]></text>
+		</element>
+		<element kind="staticText" uuid="5d26b6e5-1efc-45bf-9ef6-90eec9c26f14" x="380" y="5" width="70" height="30" forecolor="#0831FF" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Payment]]></text>
+		</element>
+		<element kind="textField" uuid="759b4dfe-42b1-4d2b-84c3-ae67757c7fb2" x="50" y="5" width="80" height="30" forecolor="#D9297E" italic="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter1}]]></expression>
+		</element>
+		<element kind="textField" uuid="bb03d4d2-a235-4cdb-999c-72d32be7bcf4" x="250" y="5" width="90" height="30" forecolor="#D9297E" italic="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter2}]]></expression>
+		</element>
+		<element kind="textField" uuid="492f04c2-ef52-4155-b72f-9af0bb7b5158" x="450" y="5" width="100" height="30" forecolor="#D9297E" italic="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter3}]]></expression>
+		</element>
+	</pageHeader>
+	<columnHeader height="41" splitType="Stretch">
+		<element kind="staticText" uuid="54215ad7-8500-4063-8002-f34249c2d5a7" x="90" y="5" width="110" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Payment Date]]></text>
+		</element>
+		<element kind="staticText" uuid="6aebba6d-a922-40c6-b5d2-40d968808e35" x="0" y="5" width="70" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Product ID]]></text>
+		</element>
+		<element kind="staticText" uuid="2df910ef-0c5d-4a4e-913c-46fc8c9fa021" x="220" y="5" width="100" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Tax Rs.]]></text>
+		</element>
+		<element kind="staticText" uuid="0de3fd02-ecaa-482f-96f1-76e9be8de9eb" x="340" y="5" width="80" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Sub Total]]></text>
+		</element>
+		<element kind="staticText" uuid="621d429a-6eaf-4c41-aecb-e0b3a753f43f" x="440" y="5" width="110" height="30" forecolor="#EDC328" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Cash]]></text>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="63" splitType="Stretch">
+			<element kind="textField" uuid="4fe850b6-ef59-4748-b6af-75efadd2dfc4" x="0" y="16" width="70" height="30" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter4}]]></expression>
+			</element>
+			<element kind="textField" uuid="2abd2cda-6b08-4759-9be4-5a019c11b374" x="90" y="16" width="108" height="30" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter5}]]></expression>
+			</element>
+			<element kind="textField" uuid="aaa9735f-03c1-492a-b55d-1160b47b8b51" x="220" y="16" width="100" height="30" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter6}]]></expression>
+			</element>
+			<element kind="textField" uuid="ed62fa7c-2144-4bf0-8561-27c6fcc87762" x="340" y="16" width="80" height="30" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter7}]]></expression>
+			</element>
+			<element kind="textField" uuid="55a075e5-4a9a-4608-81f0-abce35a2880a" x="440" y="16" width="110" height="30" bold="true" hTextAlign="Center" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter8}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<columnFooter height="52" splitType="Stretch">
+		<element kind="staticText" uuid="6e42ce6a-f0e1-4ecb-a382-9de4f673503c" x="320" y="11" width="110" height="30" forecolor="#EBBC2F" fontSize="12.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Total Price]]></text>
+		</element>
+		<element kind="textField" uuid="fe224982-1bee-4f43-8f6c-9b3d13d9ec45" x="450" y="10" width="100" height="30" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<expression><![CDATA[$P{Parameter9}]]></expression>
+		</element>
+	</columnFooter>
+	<pageFooter height="55" splitType="Stretch">
+		<element kind="staticText" uuid="fefde2dd-685f-4ef5-b963-01f82f47bf51" x="182" y="0" width="210" height="30" forecolor="#F2074A" fontSize="16.0" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[***Thank You Welcome ***]]></text>
+		</element>
+		<element kind="staticText" uuid="7acd1686-760a-43b4-8745-cc4d49a33581" x="222" y="30" width="130" height="15" forecolor="#5A13F2" italic="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Himesh Hansana Soft.com]]></text>
+		</element>
+	</pageFooter>
+	<summary height="42" splitType="Stretch"/>
+</jasperReport>

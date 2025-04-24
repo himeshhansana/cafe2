@@ -1,0 +1,87 @@
+<!-- Created with Jaspersoft Studio version 7.0.0.final using JasperReports Library version 7.0.0-b478feaa9aab4375eba71de77b4ca138ad2f62aa  -->
+<jasperReport name="cafePayment" language="java" columnCount="1" pageWidth="250" pageHeight="350" orientation="Landscape" columnWidth="210" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="03af5aca-a431-4d18-9a51-51d546097b71">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="Parameter1" class="java.lang.String"/>
+	<parameter name="Parameter2" class="java.lang.String"/>
+	<parameter name="Parameter3" class="java.lang.String"/>
+	<parameter name="Parameter4" class="java.lang.String"/>
+	<parameter name="Parameter5" class="java.lang.String"/>
+	<parameter name="Parameter6" class="java.lang.String"/>
+	<parameter name="Parameter7" class="java.lang.String"/>
+	<parameter name="Parameter8" class="java.lang.String"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="32" splitType="Stretch">
+		<element kind="staticText" uuid="08e0effb-33a2-4ff2-8fad-ccbecd1af985" x="-15" y="0" width="240" height="20" fontName="Arial Black" fontSize="14.0" hTextAlign="Center">
+			<text><![CDATA[Royal Cafe Employee Salary Sheet]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</title>
+	<columnHeader height="15" splitType="Stretch"/>
+	<detail>
+		<band height="180" splitType="Stretch">
+			<element kind="staticText" uuid="42adeea3-d949-4de3-92a8-8e79a7a94bf7" x="-3" y="10" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Email]]></text>
+			</element>
+			<element kind="staticText" uuid="3c4efeb3-2f74-4c87-bd49-0878ff424cf5" x="-3" y="30" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Name]]></text>
+			</element>
+			<element kind="staticText" uuid="1f417d29-7f4b-4460-8140-aca8ece7a014" x="-3" y="50" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Nic]]></text>
+			</element>
+			<element kind="staticText" uuid="12aec2ab-a629-448e-9879-34e893cb3278" x="-3" y="70" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Post]]></text>
+			</element>
+			<element kind="staticText" uuid="24758c67-b270-4d13-996d-3101e3eb3f68" x="-3" y="90" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Basic Salary]]></text>
+			</element>
+			<element kind="staticText" uuid="6ac9e0e8-e13e-4622-a9d4-67a4edfe4953" x="-3" y="110" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Monthly Salary]]></text>
+			</element>
+			<element kind="staticText" uuid="d6782282-fe6d-4be6-a64e-2cef54c125dd" x="-3" y="130" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Net Salary]]></text>
+			</element>
+			<element kind="staticText" uuid="846c42e3-1daa-47b5-a55f-342e49b6426f" x="-3" y="150" width="100" height="20" fontSize="12.0" bold="true" hTextAlign="Left" vTextAlign="Middle">
+				<text><![CDATA[Date]]></text>
+			</element>
+			<element kind="textField" uuid="b49f62d4-f12c-4a5f-b626-190053bf135e" x="100" y="10" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter1}]]></expression>
+			</element>
+			<element kind="textField" uuid="c54b85be-d06a-41ef-802e-a39c4698143e" x="100" y="30" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter2}]]></expression>
+			</element>
+			<element kind="textField" uuid="cbb91f33-172c-4f80-8d6f-99d59bbfb84c" x="100" y="50" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter3}]]></expression>
+			</element>
+			<element kind="textField" uuid="1f3e8498-bb75-4f8d-8186-d255e5acba90" x="100" y="70" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter4}]]></expression>
+			</element>
+			<element kind="textField" uuid="dddcdbb8-e105-4c8d-8d94-b01b0c0cbb3a" x="100" y="90" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter5}]]></expression>
+			</element>
+			<element kind="textField" uuid="25416273-2cdd-439b-8d0c-21a88fd7e2e4" x="100" y="110" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter6}]]></expression>
+			</element>
+			<element kind="textField" uuid="b697f11a-a986-49c5-b511-97d67a3ff0d9" x="100" y="130" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter7}]]></expression>
+			</element>
+			<element kind="textField" uuid="facf7d4b-14b7-4e7a-b5aa-0ee3cc4773d5" x="100" y="150" width="120" height="20" hTextAlign="Left" vTextAlign="Middle">
+				<expression><![CDATA[$P{Parameter8}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<pageFooter height="28" splitType="Stretch">
+		<element kind="staticText" uuid="354c9b33-3216-4049-b120-43799770b871" x="55" y="0" width="100" height="20" forecolor="#C24C4A" fontSize="14.0" italic="true" bold="true" hTextAlign="Center" vTextAlign="Middle">
+			<text><![CDATA[Thank You]]></text>
+		</element>
+	</pageFooter>
+	<summary height="15" splitType="Stretch"/>
+</jasperReport>
